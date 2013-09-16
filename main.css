@@ -1,0 +1,36 @@
+/* 
+    Document   : main
+    Created on : 12 sept. 2013, 14:56:21
+    Author     : hregnie2
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+@font-face{font-family:bonzai;src:url('bonzai.ttf');}
+
+body{margin:0;padding:0;background-color:#FCFFE3;font:15px tahoma,sans-serif;}
+
+a{text-decoration:none;color:black;}
+h1{font:90px bonzai,sans-serif;margin:0 20px;display:inline-block;}
+h2{font:25px bonzai,sans-serif;margin:0 20px;display:inline-block;width:710px;}
+
+#container {width:1000px;height:1000px;margin:auto;background-color:#FCFFE3;position:relative;}
+
+#header{position:absolute;height:150px;width:1000px;}
+#header #logo{float:left;width:230px;height:130px;margin:10px;text-align: center;}
+
+#menu {	float:left;background-color:#73BF33;width:250px;height:100%;padding-top:150px;
+		-moz-box-shadow: inset -5px 0px 10px -5px rgba(00, 00, 00, 0.5);
+		-webkit-box-shadow: inset -5px 0px 10px -5px rgba(00, 00, 00, 0.5);
+		box-shadow: inset -5px 0px 10px -5px rgba(00, 00, 00, 0.5);}
+
+.lmenu_item{margin-left:20px;height:25px;display:table;width:205px;padding:5px 5px 5px 20px;}
+.lmenu_item.active{	background-color:#FCFFE3;
+					-moz-box-shadow: -5px 0px 10px 0px rgba(00, 00, 00, 0.5);
+					-webkit-box-shadow: -5px 0px 10px 0px rgba(00, 00, 00, 0.5);
+					box-shadow: -5px 0px 10px 0px rgba(00, 00, 00, 0.5);}
+.lmenu_item a{display:table-cell;vertical-align:middle}
+.lmenu_item.vseparator{font-weight:bold;margin-left:5px;width:220px;}
