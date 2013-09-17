@@ -5,44 +5,56 @@
     Description:
         Purpose of the stylesheet follows.
 */
+/*
+#0D2E0F -> couleur de police
+#28611A -> couleur de bordure + ombre
+#73BF33 -> couleur fond menu
+#81D639 -> hover
+#FCFFE3 -> couleur background
+*/
+
 
 root { 
     display: block;
 }
 @font-face{font-family:bonzai;src:url('bonzai.ttf');}
 
-body{margin:0;padding:0;background-color:#FCFFE3;font:15px tahoma,sans-serif;}
+body{margin:0;padding:0;background-color:#FCFFE3;font:15px tahoma,sans-serif;color:#0D2E0F}
 
-a{text-decoration:none;color:black;}
+a{text-decoration:none;color:#0D2E0F;}
 h1{font:90px bonzai,sans-serif;margin:0 20px;display:inline-block;}
 h2{font:25px bonzai,sans-serif;margin:0 20px;display:inline-block;width:710px;}
 
-#container {width:1200px;height:1000px;margin:auto;background-color:#FCFFE3;position:relative;}
+#container {width:1200px;height:1000px;margin:auto;background-color:#FCFFE3;border-right:1px solid #28611A}
 
-#header{position:absolute;height:150px;width:1000px;}
-#header #logo{float:left;width:230px;height:130px;margin:10px;text-align: center;}
+#header{height:150px;text-align:center;}
 
-#bamboo {   width:710px;height:10px;background-color:#3A611A;position:absolute;top:150px;left:250px;
-            -webkit-border-top-right-radius: 4px;
-            -webkit-border-bottom-right-radius: 4px;
-            -moz-border-radius-topright: 4px;
-            -moz-border-radius-bottomright: 4px;
-            border-top-right-radius: 4px;
-            border-bottom-right-radius: 4px;}
+#bamboo {   height:10px;background-color:#3A611A;}
 
-#menu-left {	float:left;background-color:#73BF33;width:250px;height:100%;padding-top:160px;border-right:1px solid #3A611A;
-		-moz-box-shadow: inset -5px 0px 10px -5px rgba(58, 97, 26, 1);
-		-webkit-box-shadow: inset -5px 0px 10px -5px rgba(58, 97, 26, 1);
-		box-shadow: inset -5px 0px 10px -5px rgba(58, 97, 26, 1);}
-#menu-right {   float:right;}
+#menu-left {	float:left;background-color:#73BF33;width:200px;height:100%;border-right:1px solid #28611A;margin-right:20px;
+		-moz-box-shadow: inset -7px 0px 10px -5px #28611A;
+		-webkit-box-shadow: inset -7px 0px 10px -5px #28611A;
+		box-shadow: inset -7px 0px 10px -5px #28611A;}
 
-.lmenu_item{margin-left:20px;height:25px;display:table;width:205px;padding:5px 5px 5px 20px;}
-.lmenu_item.active{	background-color:#FCFFE3;width:206px;
-					-moz-box-shadow: -5px 0px 10px 0px rgba(58, 97, 26, 1);
-					-webkit-box-shadow: -5px 0px 10px 0px rgba(58, 97, 26, 1);
-					box-shadow: -5px 0px 10px 0px rgba(58, 97, 26, 1);}
+#menu-left #logo{width:180px;height:150px;margin:10px;text-align: center;}
+
+#menu-right {float:right;height:100%;width:200px;margin-left:20px;}
+
+.lmenu_item{margin-left:20px;height:25px;display:table;width:155px;padding:5px 5px 5px 20px;}
+.lmenu_item:hover{  background-color:#DEDEC5;border-right:1px solid #28611A;
+                    -moz-box-shadow: inset -7px 0px 10px -5px #28611A;
+                    -webkit-box-shadow: inset -7px 0px 10px -5px #28611A;
+                    box-shadow: inset -7px 0px 10px -5px #28611A;
+                    border-bottom-left-radius: 2px;border-top-left-radius: 2px;}
+
+.lmenu_item.active{ background-color:#FCFFE3;width:156px;border-right:none;
+                    -moz-box-shadow: -7px 0px 10px -1px #28611A;
+                    -webkit-box-shadow: -7px 0px 10px -1px #28611A;
+                    box-shadow: -7px 0px 10px -1px #28611A;
+                    border-bottom-left-radius: 2px;border-top-left-radius: 2px;}
+
 .lmenu_item a{display:table-cell;vertical-align:middle}
-.lmenu_item.vseparator{font-weight:bold;margin-left:5px;width:220px;}
+.lmenu_item.vseparator{font-weight:bold;margin-left:5px;width:170px;}
 
 
-#content{padding:170px 10px 10px 270px;text-align:justify;}
+#content{padding:20px;text-align:justify;}
