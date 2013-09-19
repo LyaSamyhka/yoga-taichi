@@ -19,13 +19,14 @@ root {
 }
 @font-face{font-family:bonzai;src:url('bonzai.ttf');}
 
-body{margin:0;padding:0;background-color:#FCFFE3;font:15px tahoma,sans-serif;color:#0D2E0F}
+body{margin:0;padding:0;background-color:#FCFFE3;font:13px tahoma,sans-serif;color:#0D2E0F}
 
 a{text-decoration:none;color:#0D2E0F;}
 h1{font:90px bonzai,sans-serif;margin:0 20px;display:inline-block;}
 h2{font:25px bonzai,sans-serif;margin:0 20px;display:inline-block;width:710px;}
 
-#container {width:1200px;height:1000px;margin:auto;background-color:#FCFFE3;border-right:1px solid #28611A}
+
+#container {width:1200px;height:1000px;margin:auto;background-color:#FCFFE3;}
 
 #header{height:150px;text-align:center;}
 
@@ -40,21 +41,25 @@ h2{font:25px bonzai,sans-serif;margin:0 20px;display:inline-block;width:710px;}
 
 #menu-right {float:right;height:100%;width:200px;margin-left:20px;}
 
-.lmenu_item{margin-left:20px;height:25px;display:table;width:155px;padding:5px 5px 5px 20px;}
+.lmenu_item{margin-left:20px;height:20px;display:table;width:155px;padding:5px 5px 5px 20px;}
+
 .lmenu_item:hover{  background-color:#DEDEC5;border-right:1px solid #28611A;
                     -moz-box-shadow: inset -7px 0px 10px -5px #28611A;
                     -webkit-box-shadow: inset -7px 0px 10px -5px #28611A;
                     box-shadow: inset -7px 0px 10px -5px #28611A;
                     border-bottom-left-radius: 2px;border-top-left-radius: 2px;}
 
-.lmenu_item.active{ background-color:#FCFFE3;width:156px;border-right:none;
+.lmenu_item.active{ background-color:#FCFFE3;width:155px;border-right:none;height:18px;
                     -moz-box-shadow: -7px 0px 10px -1px #28611A;
                     -webkit-box-shadow: -7px 0px 10px -1px #28611A;
                     box-shadow: -7px 0px 10px -1px #28611A;
-                    border-bottom-left-radius: 2px;border-top-left-radius: 2px;}
+                    border-bottom-left-radius: 2px;border-top-left-radius: 2px;
+                    border-top:1px solid #28611A;border-left:1px solid #28611A;border-bottom:1px solid #28611A;}
+.lmenu_item.vseparator{font-weight:bold;margin-left:5px;width:170px;}
 
-.lmenu_item a{display:table-cell;vertical-align:middle}
+.lmenu_item a{display:table-cell;vertical-align:middle;}
 .lmenu_item.vseparator{font-weight:bold;margin-left:5px;width:170px;}
 
 
 #content{padding:20px;text-align:justify;}
+

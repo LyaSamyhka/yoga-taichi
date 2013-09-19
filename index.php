@@ -6,28 +6,35 @@
 		<link rel="stylesheet" href="main.css">
 	</head>
 	<body>
-		<div id="container">
+                    <div id="container">
                         <div id="menu-left">
                                 <div id="logo"><img src="http://fakeimg.pl/130x130/FCFFE3/?text=logo"></div>
-				<span class="lmenu_item vseparator"><a href="#">Nullam mattis pellentesque</a></span>
-				<span class="lmenu_item"><a href="#">Lorem ipsum dolores dolores sitLorem ipsum dolores </a></span>
-				<span class="lmenu_item"><a href="#">Lorem ipsum dolores</a></span>
-				<span class="lmenu_item"><a href="#">Lorem ipsum dolores</a></span>
-				<span class="lmenu_item"><a href="#">Lorem ipsum dolores</a></span>
-				<span class="lmenu_item vseparator"><a href="#">Nullam mattis pellentesque ante a sagittis. Phasellus vel justo mauris. </a></span>
-				<span class="lmenu_item active"><a href="#">Lorem ipsum dolores</a></span>
-				<span class="lmenu_item"><a href="#">Lorem ipsum dolores</a></span>
-				<span class="lmenu_item"><a href="#">Lorem ipsum dolores</a></span>
-				<span class="lmenu_item vseparator"><a href="#">Nullam mattis pellentesque</a></span>
-				<span class="lmenu_item"><a href="#">Lorem ipsum dolores</a></span>
-				<span class="lmenu_item"><a href="#">Lorem ipsum dolores</a></span>
-				<span class="lmenu_item"><a href="#">Lorem ipsum dolores</a></span>
-				<span class="lmenu_item"><a href="#">Lorem ipsum dolores</a></span>
-				<span class="lmenu_item"><a href="#">Lorem ipsum dolores</a></span>
+				<span class="lmenu_item vseparator"><a href="#">Tai Chi Chuan</a></span>
+				<span class="lmenu_item"><a href="#">Le style Zhaobao</a></span>
+				<span class="lmenu_item"><a href="#">Le style Chen</a></span>
+				<span class="lmenu_item"><a href="#">L'épée du Wudang</a></span>
+				<span class="lmenu_item"><a href="#">Le Bâton</a></span>
+				<span class="lmenu_item vseparator"><a href="#">Qi Qong</a></span>
+				<span class="lmenu_item active"><a href="#">Ba Duan Jin</a></span>
+				<span class="lmenu_item"><a href="#">Yi Jin Jing</a></span>
+				<span class="lmenu_item"><a href="#">Wudang Wu Qin Xi</a></span>
+                                <span class="lmenu_item"><a href="#">Les 24 Energies</a></span>
+				<span class="lmenu_item vseparator"><a href="#">Intervenants</a></span>
+				<span class="lmenu_item"><a href="#">Qui suis-je ?</a></span>
+				<span class="lmenu_item"><a href="#">Christian Rasotto</a></span>
+				<span class="lmenu_item"><a href="#">Maitres Racines</a></span>
+                                <span class="lmenu_item vseparator"><a href="#">Informations Pratiques</a></span>
+				<span class="lmenu_item"><a href="#">Qui sommes-nous ?</a></span>
+				<span class="lmenu_item"><a href="#">FaQ</a></span>
+                                <span class="lmenu_item"><a href="#">Horaires et lieux</a></span>
+                                <span class="lmenu_item"><a href="#">Tarifs</a></span>
+                                <span class="lmenu_item"><a href="#">Tenue et matériel</a></span>
 			</div>
                     
                         <div id="menu-right">
-                            
+                            <span class="rmenu-item"></span>
+                            <span class="rmenu-item"></span>
+                            <span class="rmenu-item"></span>
                         </div>
                     
 			<div id="header">
@@ -49,8 +56,6 @@ Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus aliquet di
 
 Nullam sit amet nunc dui. Vivamus tempor ante id est rhoncus, tempus pharetra sem condimentum. Aliquam a sollicitudin nisi, vel accumsan ligula. Aenean ipsum purus, semper quis ante eget, hendrerit tincidunt nisi. Morbi mattis nisl non libero facilisis scelerisque. Vestibulum sit amet sem non odio vestibulum gravida. Nunc sodales adipiscing lobortis. Sed lorem nisi, ornare nec erat quis, tristique laoreet urna. Sed adipiscing dignissim lorem, tincidunt condimentum enim accumsan sit amet.
                         </div>
-                        
-                        
                         
 		</div>
             <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
