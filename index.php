@@ -6,6 +6,7 @@
 		<link rel="stylesheet" href="main.css">
 	</head>
 	<body>
+            <div id="bg"><img src="side-bamboo.png"></div>
                     <div id="container">
                         <div id="menu-left">
                                 <div id="logo"><img src="http://fakeimg.pl/130x130/FCFFE3/?text=logo"></div>
@@ -32,6 +33,7 @@
 			</div>
                     
                         <div id="menu-right">
+                            
                             <span class="rmenu-item"></span>
                             <span class="rmenu-item"></span>
                             <span class="rmenu-item"></span>
