@@ -5,6 +5,7 @@
     Description:
         Purpose of the stylesheet follows.
 */
+
 /*
 #0D2E0F -> couleur de police
 #28611A -> couleur de bordure + ombre
@@ -22,14 +23,15 @@ root {
 body{margin:0;padding:0;background-color:#FCFFE3;font:13px tahoma,sans-serif;color:#0D2E0F}
 
 a{text-decoration:none;color:#0D2E0F;}
-h1{font:90px bonzai,sans-serif;margin:0 20px;}
-h2{font:25px bonzai,sans-serif;margin:0 20px;}
+h1{font:90px bonzai,sans-serif;margin:0 20px;max-width:1000px;}
+h2{font:25px bonzai,sans-serif;margin:0 20px;max-width:1000px;}
+h3{margin:5px 0 0 20px;padding:5px;width:170px;}
 
 #bg {width:100%;height:100%;position:fixed;}
-#bg img{height:100%;opacity: 0.3;position:absolute;top:0;right:0;z-index:1}
+#bg img{height:100%;opacity: 0.3;position:absolute;top:0;right:0;z-index:-10}
 #container {height:1000px;margin-left:15%;background-color:#FCFFE3;z-index:0;}
 
-#header{min-height:150px;text-align:center;}
+#header{min-height:150px;text-align:center;position:relative;z-index:0}
 
 #bamboo {position:relative;height:10px;background:url('bar-bamboo10.png') repeat-x;z-index:2;width:100%;}
 
@@ -42,25 +44,49 @@ h2{font:25px bonzai,sans-serif;margin:0 20px;}
 
 #menu-right {float:right;height:100%;width:30%;margin-left:20px;}
 
+span.lmenu_item{margin-left:20px;height:20px;display:table;width:155px;padding:5px 5px 5px 20px;}
 
-.lmenu_item{margin-left:20px;height:20px;display:table;width:155px;padding:5px 5px 5px 20px;}
-
-.lmenu_item:hover{  background-color:#DEDEC5;border-right:1px solid #28611A;
+span.lmenu_item:hover{  background-color:#DEDEC5;border-right:1px solid #28611A;
                     -moz-box-shadow: inset -7px 0px 10px -5px #28611A;
                     -webkit-box-shadow: inset -7px 0px 10px -5px #28611A;
                     box-shadow: inset -7px 0px 10px -5px #28611A;
                     border-bottom-left-radius: 2px;border-top-left-radius: 2px;}
 
-.lmenu_item.active{ background-color:#FCFFE3;width:155px;border-right:none;height:18px;
+span.lmenu_item.active{ background-color:#FCFFE3;width:155px;border-right:none;height:18px;
                     -moz-box-shadow: -7px 0px 10px -1px #28611A;
                     -webkit-box-shadow: -7px 0px 10px -1px #28611A;
                     box-shadow: -7px 0px 10px -1px #28611A;
                     border-bottom-left-radius: 2px;border-top-left-radius: 2px;
                     border-top:1px solid #28611A;border-left:1px solid #28611A;border-bottom:1px solid #28611A;}
-.lmenu_item.vseparator{font-weight:bold;margin-left:5px;width:170px;}
 
-.lmenu_item a{display:table-cell;vertical-align:middle;}
-.lmenu_item.vseparator{font-weight:bold;margin-left:5px;width:170px;}
+span.lmenu_item a{display:table-cell;vertical-align:middle;}
+
+
+
+#content_menu{position:relative;width:200px;margin:0 20px 20px 0;background-color:rgba(151,191,35,0.8);border:1px solid #28611A;;
+               box-shadow: 0 1px 5px rgba(40,97,26,0.25), 0 0 50px rgba(40,97,26,0.1) inset;
+               -moz-box-shadow: 0 1px 5px rgba(40,97,26,0.25), 0 0 50px rgba(40,97,26,0.1) inset;
+               -webkit-box-shadow: 0 1px 5px rgba(40,97,26,0.25), 0 0 50px rgba(40,97,26,0.1) inset;
+               border-radius: 2px 2px 2px 2px / 2px 2px 2px 2px;
+               -moz-border-radius: 2px 2px 2px 2px / 2px 2px 2px 2px;
+               -webkit-border-radius: 2px 2px 2px 2px / 2px 2px 2px 2px;}
+.rmenu_item{padding-top:10px;}
+#content_menu:before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px / 100px;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    content: "";
+    box-shadow: 0 0 15px rgba(40,97,26,0.6);
+    }
+    
+.rmenu_item .title{padding:5px;text-align:center;background-color:#FCFFE3;border-bottom:1px solid #28611A;
+      box-shadow:0 1px 3px #28611A, 0 -1px 3px #28611A;
+}
+.rmenu_item .content{padding:5px;}
 
 
 #content{padding:20px;text-align:justify;position:relative;z-index:4;}

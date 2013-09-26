@@ -10,21 +10,21 @@
                     <div id="container">
                         <div id="menu-left">
                                 <div id="logo"><img src="http://fakeimg.pl/130x130/FCFFE3/?text=logo"></div>
-				<span class="lmenu_item vseparator"><a href="#">Tai Chi Chuan</a></span>
+				<h3 class="lmenu_item">Tai Chi Chuan</h3>
 				<span class="lmenu_item"><a href="#">Le style Zhaobao</a></span>
 				<span class="lmenu_item"><a href="#">Le style Chen</a></span>
 				<span class="lmenu_item"><a href="#">L'épée du Wudang</a></span>
 				<span class="lmenu_item"><a href="#">Le Bâton</a></span>
-				<span class="lmenu_item vseparator"><a href="#">Qi Qong</a></span>
+				<h3 class="lmenu_item">Qi Qong</h3>
 				<span class="lmenu_item active"><a href="#">Ba Duan Jin</a></span>
 				<span class="lmenu_item"><a href="#">Yi Jin Jing</a></span>
 				<span class="lmenu_item"><a href="#">Wudang Wu Qin Xi</a></span>
                                 <span class="lmenu_item"><a href="#">Les 24 Energies</a></span>
-				<span class="lmenu_item vseparator"><a href="#">Intervenants</a></span>
+				<h3 class="lmenu_item">Intervenants</h3>
 				<span class="lmenu_item"><a href="#">Qui suis-je ?</a></span>
 				<span class="lmenu_item"><a href="#">Christian Rasotto</a></span>
 				<span class="lmenu_item"><a href="#">Maitres Racines</a></span>
-                                <span class="lmenu_item vseparator"><a href="#">Informations Pratiques</a></span>
+                                <h3 class="lmenu_item">Informations Pratiques</h3>
 				<span class="lmenu_item"><a href="#">Qui sommes-nous ?</a></span>
 				<span class="lmenu_item"><a href="#">FaQ</a></span>
                                 <span class="lmenu_item"><a href="#">Horaires et lieux</a></span>
@@ -32,12 +32,7 @@
                                 <span class="lmenu_item"><a href="#">Tenue et matériel</a></span>
 			</div>
                     
-                        <div id="menu-right">
-                            
-                            <span class="rmenu-item"></span>
-                            <span class="rmenu-item"></span>
-                            <span class="rmenu-item"></span>
-                        </div>
+                        
                     
 			<div id="header">
 				
@@ -48,6 +43,41 @@
                         <div id="bamboo"></div>
                         
                         <div id="content">
+                            <div id="menu-right">
+                                <div id="content_menu">
+                                    <div class="rmenu_item">
+                                        <div class="title">Agenda</div>
+                                        <div class="content">
+                                            <p class="event_title"><a href="#">Agenda</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="rmenu_item">
+                                        <div class="title">Evènements à venir</div>
+                                        <div class="content">
+                                            <p class="event_title">Ouverture Prochaine</p>
+                                            <p class="event_date"><img src="http://fakeimg.pl/16x16/FCFFE3/">14/09/2013 au 05/10/2013</p>
+                                            <p class="event_descr">Yoga Taichi 25 arrive sur Besançon ! Rejoignez nous pour un cours d'essai gratuit de 14h00 à 16h00</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="rmenu_item">
+                                        <div class="title">Sondage</div>
+                                        <div class="content">
+                                            <p class="event_title">Ouverture Prochaine</p>
+                                            <p class="event_date"><img src="http://fakeimg.pl/16x16/FCFFE3/">14/09/2013 au 05/10/2013</p>
+                                            <p class="event_descr">Yoga Taichi 25 arrive sur Besançon ! Rejoignez nous pour un cours d'essai gratuit de 14h00 à 16h00</p>
+                                        </div>
+                                    </div>
+                                    <div class="rmenu_item">
+                                        <div class="title">Formulaire de contact</div>
+                                        <div class="content">
+                                            <p class="event_title">Ouverture Prochaine</p>
+                                            <p class="event_date"><img src="http://fakeimg.pl/16x16/FCFFE3/">14/09/2013 au 05/10/2013</p>
+                                            <p class="event_descr">Yoga Taichi 25 arrive sur Besançon ! Rejoignez nous pour un cours d'essai gratuit de 14h00 à 16h00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at quam a eros malesuada tristique a fringilla ligula. Mauris orci tellus, vulputate a porta et, placerat rhoncus lectus. Etiam vitae mi odio. Ut pharetra ligula id ligula vestibulum convallis non in justo. Mauris varius eget nunc sed consectetur. Nunc magna quam, egestas nec quam ac, facilisis hendrerit dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas lacinia tempus dui, in sodales nunc mollis vel. Pellentesque id tellus at orci porta viverra.
 
 In hac habitasse platea dictumst. Vivamus sit amet arcu eu leo eleifend sagittis. Sed augue orci, sagittis ac placerat in, viverra pretium lorem. In ac gravida magna. Nullam non risus nulla. Ut pharetra placerat viverra. Cras mi tellus, tincidunt a neque vel, elementum volutpat orci. In blandit velit nisi. Donec nec porta purus. Quisque at neque at mauris luctus consectetur quis in diam. Donec vitae odio consectetur, ullamcorper ante at, fermentum turpis. Etiam ut tortor tristique, venenatis risus convallis, varius dui. Maecenas vestibulum mollis nibh eget rhoncus. Proin eget tellus velit. Integer justo velit, ultrices sit amet arcu non, imperdiet semper mauris. Nunc augue tortor, ornare quis mi vel, luctus ullamcorper quam.
